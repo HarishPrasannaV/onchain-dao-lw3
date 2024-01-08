@@ -1,13 +1,5 @@
-# Sample Hardhat Project
+## Deployed Contracts on EtherScan
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+1. NFT Smartcontract: https://sepolia.etherscan.io/address/0xe5febccd4bA3d459DE15cc720459B0c7551C502D#code
+2. NFT MarketPlace Smartcontract: https://sepolia.etherscan.io/address/0xecfE1F16b9f37f9c858eBC33Ea4157cdCAf0EFB9#code
+3. DAO Smartcontract: https://sepolia.etherscan.io/address/0x3483A24996125637ec6cCBA512AB47b0c96d6Fd7#code

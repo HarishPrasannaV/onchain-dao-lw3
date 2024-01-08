@@ -49,7 +49,7 @@ contract CryptoTardsDAO is Ownable {
     constructor(
         address _nftMarketplace,
         address _cryptoTardsNFT
-    ) payable Ownable(owner()) {
+    ) payable Ownable(msg.sender) {
         nftMarketplace = IFakeNFTMarketplace(_nftMarketplace);
         cryptoTardsNFT = ICryptoTardsNFT(_cryptoTardsNFT);
     }

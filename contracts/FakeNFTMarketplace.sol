@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: SEE LICENSE IN LICENSE
 pragma solidity ^0.8.18;
 
-contract FakeNFTMarketPlace {
+contract FakeNFTMarketplace {
     // TokenID to owner address mapping
     mapping(uint256 => address) public tokens;
 
