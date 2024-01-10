@@ -1,6 +1,6 @@
-# (LW3) NFT-powered fully on-chain DAO to invest in NFT collections as a group
+# (LW3 Project) NFT-powered fully on-chain DAO to invest in NFT collections as a group
 
-Built a DAO where NTF owners can vote in a DAO to purchse further NFTS from the collection and deployed it to vercel
+Built a DAO where NTF owners can vote in a DAO to purchase further NFTS from the collection and deployed it to vercel
 
 ## Deployed @ https://onchain-dao-lw3.vercel.app/
 
