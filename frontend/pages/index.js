@@ -3,22 +3,15 @@ import {
   CryptoTardsDAOAddress,
   CryptoTardsNFTABI,
   CryptoTardsNFTAddress,
-} from "@/constants";
+} from "../constants";
 
-import ConnectButton from "@rainbow-me/rainbowkit";
-
+import { ConnectButton } from "@rainbow-me/rainbowkit";
 import Head from "next/head";
-
 import { useEffect, useState } from "react";
-
 import { formatEther } from "viem/utils";
-
 import { useAccount, useBalance, useContractRead } from "wagmi";
-
 import { readContract, waitForTransaction, writeContract } from "wagmi/actions";
-
 import styles from "../styles/Home.module.css";
-
 import { Inter } from "next/font/google";
 
 const inter = Inter({
